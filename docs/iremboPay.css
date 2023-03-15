@@ -2752,14 +2752,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-neutral {
-    color: #212529;
+    color: white;
     border-color: #fff;
     background-color: #fff;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08)
 }
 
 .btn-neutral:hover {
-    color: #212529;
+    color: #0063CF;
     border-color: #fff;
     background-color: #fff
 }
