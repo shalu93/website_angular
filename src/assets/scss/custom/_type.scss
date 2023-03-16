@@ -28,10 +28,10 @@
   .oval-blue{
   
 	position: absolute;
-	top: 90%;
-	  left: -36%;
-	  right: -36%;
-	border-radius: 60%;
+	top: 9%;
+    left: -16%;
+    right: -16%;
+	border-radius: 90%;
 	background: linear-gradient(180deg, #0063CF 59.09%, rgba(0, 99, 207, 0.58) 73.64%, rgba(0, 99, 207, 0) 40.79%);
 	background-size: cover;
 	mix-blend-mode: multiply;
@@ -177,5 +177,16 @@
 	&::before {
 	  content: "\2014 \00A0"; // em dash, nbsp
 	}
+  }
+
+//
+// Horizontal rules
+//
+
+hr {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	border: 0;
+	border-top: solid rgba(255, 255, 255, 0.3);
   }
   
