@@ -1,20 +1,3 @@
-/*!
-
-=========================================================
-* Argon Design System Angular - v1.3.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/iremboPay-website-design
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 
 :root {
     --blue: #5e72e4;
@@ -13764,7 +13747,7 @@ a.btn-icon-only {
 
 .footer .footer-link:hover,
 .footer .nav .nav-item .nav-link:hover {
-    color: #525f7f!important
+    color: white !important
 }
 
 .footer .list-unstyled li a {
@@ -13775,10 +13758,12 @@ a.btn-icon-only {
 }
 
 .footer .list-unstyled li a:hover {
-    color: #525f7f
+    color: white
 }
 
 .footer .copyright {
+    text-align: center;
+    color: white;
     font-size: .875rem
 }
 

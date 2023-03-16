@@ -1,7 +1,7 @@
 .footer {
-    background: $footer-bg;
+    background: #0063CF;
+    position: relative;
     padding: 3rem 0;
-    //color: $footer-color;
 
     .col-footer {
         .heading {
@@ -16,10 +16,10 @@
 
     .nav .nav-item .nav-link,
     .footer-link {
-        color: $footer-link-color !important;
+        color: white !important;
 
         &:hover {
-            color: $footer-link-hover-color !important;
+            color: white !important;
         }
     }
 
@@ -35,15 +35,49 @@
     }
 
     .copyright {
+        color: white;
+        text-align: center;
         font-size: $font-size-sm;
     }
 }
+.footer-logo {
+    margin-bottom: 30px;
+  }
+  .footer-logo img {
+    max-width: 143px;
+    padding-bottom: 70%;
+  }
 
 .footer-dark {
     .col-footer .heading {
         color: $white;
     }
 }
+.footer-widget-heading h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding-top: 10%;
+    line-height: 25px;
+    position: relative;
+  }
+
+  .footer-widget {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: transparent;
+  }
+  .footer-widget ul li a:hover{
+    color: white;
+  }
+  .footer-widget ul li a {
+    color: white;
+  }
+  
 
 .footer.has-cards {
     overflow: hidden;
@@ -65,6 +99,7 @@
     }
 
     .container {
+        background-color: #0063CF;
         pointer-events: auto;
         position: relative;
     }
@@ -81,3 +116,27 @@
         }
     }
 }
+
+.footer-container{
+    padding-left: 5%;
+}
+
+.footer-social-icon {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .footer-social-icon a {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+  }
+  .footer-social-icon img {
+    height: 18px;
+    width: 15px;
+    text-align: center;
+    line-height: 38px;
+  }
+  
