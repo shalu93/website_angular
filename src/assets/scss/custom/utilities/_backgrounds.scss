@@ -14,7 +14,12 @@
 // Sections
 
 section {
-    //background-color: section-color("primary");
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    // padding-top: 5%;
 }
 
 @each $color, $value in $section-colors {

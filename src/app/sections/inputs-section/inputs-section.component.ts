@@ -6,9 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./inputs-section.component.css']
 })
 export class InputsSectionComponent implements OnInit {
-  focus;
-  focus1;
-  focus5;
   constructor() { }
 
   ngOnInit() {

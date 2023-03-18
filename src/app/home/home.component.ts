@@ -7,14 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class HomeComponent implements OnInit {
-    model = {
-        left: true,
-        middle: false,
-        right: false
-    };
+    showMeOvalDiv:boolean = true
+    showMeRectDiv:boolean = false
 
-    focus;
-    focus1;
+    hoverMe(){
+        this.showMeOvalDiv = false;
+        this.showMeRectDiv = true;
+    }
     constructor() { }
 
     ngOnInit() {}
