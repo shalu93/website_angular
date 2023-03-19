@@ -6,6 +6,7 @@
     height: 360px;
     margin: 0 auto;
     z-index: 1;
+    color:#0063CF;
 }
 
 .section-nucleo-icons {
@@ -41,7 +42,7 @@
 
             &:nth-child(1) {
                 font-size: 42px;
-                color: theme-color("warning");
+                color: black;
                 z-index: 2;
             }
         }

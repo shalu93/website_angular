@@ -48,36 +48,11 @@
             <i class="ni ni-ui-04 d-lg-none"></i>
             <span class="nav-link-inner--text other-buttons" >Our Clients</span>
           </a>
-          <div class="dropdown-menu-xl dropdown-menu" >
-            <div class="dropdown-menu-inner">
-              <a routerLinkActive="active" [routerLink]="['documentation/tutorial']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
-                  <i class="ni ni-spaceship"></i>
-                </div>
-                <div class="media-body ml-3">
-                  <h6 class="heading text-primary mb-md-1">RRA</h6>
-                  <p class="description d-none d-md-inline-block mb-0">something about RRA</p>
-                </div>
-              </a>
-              <a routerLinkActive="active" [routerLink]="['documentation/colors']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
-                  <i class="ni ni-palette"></i>
-                </div>
-                <div class="media-body ml-3">
-                  <h6 class="heading text-primary mb-md-1">RDB</h6>
-                  <p class="description d-none d-md-inline-block mb-0">Something ABout RDB</p>
-                </div>
-              </a>
-              <a routerLinkActive="active" [routerLink]="['documentation/alerts']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                  <i class="ni ni-ui-04"></i>
-                </div>
-                <div class="media-body ml-3">
-                  <h5 class="heading text-warning mb-md-1">Rwanda Police</h5>
-                  <p class="description d-none d-md-inline-block mb-0">Something about Police</p>
-                </div>
-              </a>
-            </div>
+          <div class="dropdown-menu">
+            <a [routerLink]="['/landing']" class="dropdown-item">RRA</a>
+            <a [routerLink]="['/user-profile']" class="dropdown-item">RDB</a>
+            <a [routerLink]="['/login']" class="dropdown-item">RCA</a>
+            <a [routerLink]="['/register']" class="dropdown-item">RNP</a>
           </div>
         </li>
         <li class="nav-item dropdown">
