@@ -114,6 +114,12 @@
 
 // Title text within header
 .modal-title {
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+  // line-height: 20px;
+  margin-bottom: 0;
+  line-height: 1.1;
   margin-bottom: 0;
   line-height: $modal-title-line-height;
 }

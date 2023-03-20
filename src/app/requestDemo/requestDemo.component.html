@@ -47,7 +47,23 @@
                   </div>
                 </div>
                 <div class="text-center">
-                  <button type="button" class="btn btn-primary mt-4">Request Demo</button>
+                  <button type="button" class="btn btn-primary mt-4" (click)="open(classic,'' , '')">Request Demo</button>
+                  <ng-template #classic let-c="close" let-d="dismiss">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h6 class="modal-title" id="modal-title-default">Details Sent Succesfully</h6>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="d('Cross click')">
+                          <span aria-hidden="true">×</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <p>your information has been sucessfully sent to IremboPay, we will contact you</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-1 btn-success" data-dismiss="modal" (click)="c('Close click')">Close</button>
+                      </div>
+                    </div>
+                  </ng-template>
                 </div>
               </form>
             </div>
