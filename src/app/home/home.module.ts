@@ -18,7 +18,7 @@ import { SectionsModule } from '../sections/sections.module';
         SectionsModule, NgbModule
     ],
     declarations: [ HomeComponent ],
-    exports:[ HomeComponent ],
+    exports: [ HomeComponent ],
     providers: []
 })
 export class HomeModule { }
