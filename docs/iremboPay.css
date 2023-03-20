@@ -23,7 +23,7 @@
     --danger: #f5365c;
     --light: #adb5bd;
     --dark: #212529;
-    --default: #172b4d;
+    --default: #0063CF;
     --white: #fff;
     --neutral: #fff;
     --darker: black;
@@ -1719,7 +1719,7 @@ pre code {
 .table .thead-dark th {
     color: #f8f9fe;
     border-color: #1f3a68;
-    background-color: #172b4d
+    background-color: #0063CF
 }
 
 .table .thead-light th {
@@ -1730,7 +1730,7 @@ pre code {
 
 .table-dark {
     color: #f8f9fe;
-    background-color: #172b4d
+    background-color: #0063CF
 }
 
 .table-dark td,
@@ -2620,15 +2620,15 @@ fieldset:disabled a.btn {
 
 .btn-default {
     color: #fff;
-    border-color: #172b4d;
-    background-color: #172b4d;
+    border-color: #0063CF;
+    background-color: #0063CF;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08)
 }
 
 .btn-default:hover {
     color: #fff;
-    border-color: #172b4d;
-    background-color: #172b4d
+    border-color: #0063CF;
+    background-color: #0063CF
 }
 
 .btn-default.focus,
@@ -2639,15 +2639,15 @@ fieldset:disabled a.btn {
 .btn-default.disabled,
 .btn-default:disabled {
     color: #fff;
-    border-color: #172b4d;
-    background-color: #172b4d
+    border-color: #0063CF;
+    background-color: #0063CF
 }
 
 .btn-default:not(:disabled):not(.disabled).active,
 .btn-default:not(:disabled):not(.disabled):active,
 .show>.btn-default.dropdown-toggle {
     color: #fff;
-    border-color: #172b4d;
+    border-color: #0063CF;
     background-color: #0b1526
 }
 
@@ -3042,16 +3042,16 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-default {
-    color: #172b4d;
-    border-color: #172b4d;
+    color: #0063CF;
+    border-color: #0063CF;
     background-color: transparent;
     background-image: none
 }
 
 .btn-outline-default:hover {
     color: #fff;
-    border-color: #172b4d;
-    background-color: #172b4d
+    border-color: #0063CF;
+    background-color: #0063CF
 }
 
 .btn-outline-default.focus,
@@ -3061,7 +3061,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-default.disabled,
 .btn-outline-default:disabled {
-    color: #172b4d;
+    color: #0063CF;
     background-color: transparent
 }
 
@@ -3069,8 +3069,8 @@ fieldset:disabled a.btn {
 .btn-outline-default:not(:disabled):not(.disabled):active,
 .show>.btn-outline-default.dropdown-toggle {
     color: #fff;
-    border-color: #172b4d;
-    background-color: #172b4d
+    border-color: #0063CF;
+    background-color: #0063CF
 }
 
 .btn-outline-default:not(:disabled):not(.disabled).active:focus,
@@ -6613,7 +6613,7 @@ button.bg-dark:hover {
 }
 
 .bg-default {
-    background-color: #172b4d!important
+    background-color: #0063CF!important
 }
 
 a.bg-default:focus,
@@ -6737,7 +6737,7 @@ button.bg-darker:hover {
 }
 
 .border-default {
-    border-color: #172b4d!important
+    border-color: #0063CF!important
 }
 
 .border-white {
@@ -10966,7 +10966,7 @@ a.text-dark:hover {
 }
 
 .text-default {
-    color: #172b4d!important
+    color: #0063CF!important
 }
 
 a.text-default:focus,
@@ -11324,7 +11324,7 @@ button.bg-lighter:hover {
 }
 
 .bg-gradient-default {
-    background: linear-gradient(87deg, #172b4d 0, #1a174d 100%)!important
+    background: linear-gradient(87deg, #0063CF 0, #1a174d 100%)!important
 }
 
 .bg-gradient-white {
@@ -11619,7 +11619,7 @@ button.section-darker:hover {
 }
 
 .bg-gradient-default {
-    background: linear-gradient(87deg, #172b4d 0, #1a174d 100%)!important
+    background: linear-gradient(87deg, #0063CF 0, #1a174d 100%)!important
 }
 
 .bg-gradient-white {
@@ -11699,11 +11699,11 @@ button.section-darker:hover {
 }
 
 .fill-default {
-    fill: #172b4d
+    fill: #0063CF
 }
 
 .stroke-default {
-    stroke: #172b4d
+    stroke: #0063CF
 }
 
 .fill-white {
@@ -13633,7 +13633,7 @@ a.btn-icon-only {
 
 .dropdown-menu a.media:hover .heading,
 .dropdown-menu a.media:hover p {
-    color: #172b4d!important
+    color: #0063CF!important
 }
 
 .dropdown-menu-sm {
@@ -14384,7 +14384,7 @@ textarea[resize=horizontal] {
 
 .modal-default .modal-content {
     color: #fff;
-    background-color: #172b4d
+    background-color: #0063CF
 }
 
 .modal-default .modal-content .heading {
@@ -15418,7 +15418,7 @@ textarea[resize=horizontal] {
 @media (max-width:767.98px) {
     .navbar-nav .nav-link {
         padding: .625rem 0;
-        color: #172b4d!important
+        color: #0063CF!important
     }
     .navbar-nav .dropdown-menu {
         min-width: auto;
@@ -15847,12 +15847,12 @@ textarea[resize=horizontal] {
 }
 
 .popover-default {
-    background-color: #172b4d
+    background-color: #0063CF
 }
 
 .popover-default .popover-header {
     color: #fff;
-    background-color: #172b4d
+    background-color: #0063CF
 }
 
 .popover-default .popover-body {
@@ -15865,22 +15865,22 @@ textarea[resize=horizontal] {
 
 .popover-default.bs-popover-auto[x-placement^=top] .arrow::after,
 .popover-default.bs-popover-top .arrow::after {
-    border-top-color: #172b4d
+    border-top-color: #0063CF
 }
 
 .popover-default.bs-popover-auto[x-placement^=right] .arrow::after,
 .popover-default.bs-popover-right .arrow::after {
-    border-right-color: #172b4d
+    border-right-color: #0063CF
 }
 
 .popover-default.bs-popover-auto[x-placement^=bottom] .arrow::after,
 .popover-default.bs-popover-bottom .arrow::after {
-    border-bottom-color: #172b4d
+    border-bottom-color: #0063CF
 }
 
 .popover-default.bs-popover-auto[x-placement^=left] .arrow::after,
 .popover-default.bs-popover-left .arrow::after {
-    border-left-color: #172b4d
+    border-left-color: #0063CF
 }
 
 .popover-white {
