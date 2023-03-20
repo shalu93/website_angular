@@ -7,21 +7,25 @@
   }
   
   .lead-align{
-    width: 1094px;
-    height: 100px;
-    left: 93px;
-    top: 198px;
-  
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 65px;
+    font-weight: 600;
+    font-size: 300%;
     line-height: 80px;
-    /* or 123% */
-  
     text-align: center;
-  
     color: #000000;
+  }
+
+  .arrow-image{
+    width: 8%;
+    padding-bottom: 7%;
+  }
+  
+  .center-image{
+    width: 45%;
+    padding-bottom: 4.5%;
+  }
+  
+  .center-lead-align{
+    width: 100%;
   }
   
   .oval-blue::after {
@@ -83,19 +87,7 @@
     transform: rotate(180deg);
   }
   
-  .arrow-image{
-    width: 50px;
-    padding-bottom: 7%;
-  }
-  
-  .center-image{
-    width: 50%;
-    padding-bottom: 5.5%;
-  }
-  
-  .center-lead-align{
-    width: auto;
-  }
+
 
   .scrollable{
     overflow: auto;

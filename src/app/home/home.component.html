@@ -1,33 +1,38 @@
 <main>
-  <div class="position-relative" ng-app="">
+  <div class="position-relative">
+    <!-- Hero for FREE version -->
     <section class="section section-lg section-hero section-shaped">
       <div class="container shape-container d-flex align-items-center py-lg-5">
         <div class="col px-0">
           <div class="row align-items-center justify-content-center">
-            <div class="col-lg-20 text-center">
-              <p class="lead-align">Receive your payments easily 
-                <img src="./assets/img/brand/Landing-page-Arrow.png" class="arrow-image">
-                <br></p>
-                <div class="center-lead-align">
-                <span class="lead-align">with</span>
-                <img src="./assets/img/brand/irembopay-image.png" class="center-image">
-                </div>
-              <p class="lead-center">Make transactions conveniently and get your revenues promptly and safely with IremboPay.
-                Register today, discover boundless opportunities with us.</p>
+            <div class="col-lg-11 text-center">
+              <div class="center-lead-align">
+                <p>
+                <span class="lead-align">Receive your payments easily with
+                  <img src="./assets/img/brand/Landing-page-Arrow.png" class="arrow-image">
+                  <br>
+                </span>
+                </p>
+                <p>
+                  <!-- <span class="lead-align">with</span> -->
+                  <img src="./assets/img/brand/irembopay-image.png" class="center-image">
+                </p>
+                <p class="lead-center">Make transactions conveniently and get your revenues promptly and safely with IremboPay.
+                  Register today, discover boundless opportunities with us.</p>
+              </div>
               <div class="btn-wrapper mt-5">
-                <a target="_blank">
-                  <span class="btn btn-center">
-                    <span class="text-warning"></span>Request for a Demo</span>
+                <a [routerLink]="['/login']" class="btn btn-1 btn-outline-primary mb-3 mb-sm-0">
+                  <span class="btn-inner--text">Request for a Demo</span>
                 </a>
-                <a target="_blank" class="btn btn-neutral btn-icon">
-                  <span class="nav-link-inner--text">Get Started</span>
+                <a [routerLink]="['/register']" class="btn btn-1 btn-primary mb-3 mb-sm-0" target="_blank">
+                  <span class="btn-inner--text">Get Started</span>
                 </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-<!-- SVG separator -->
+      <!-- SVG separator -->
       <div class="seperator seperator-bottom">
         <section *ngIf= "showMeOvalDiv" class="oval-blue">
           <div id="section05" class="demo" (click)="hoverMe()" >
