@@ -19,12 +19,152 @@
                   Register today, discover boundless opportunities with us.</p>
               </div>
               <div class="btn-wrapper mt-5">
-                <a [routerLink]="['/request-demo']" class="btn btn-1 btn-outline-primary mb-3 mb-sm-0">
+                <button (click)="open(classic1, 'modal_mini', 'sm')" class="btn btn-1 btn-outline-primary mb-3 mb-sm-0">
                   <span class="btn-inner--text">Request for a Demo</span>
-                </a>
-                <a [routerLink]="['/get-started']" class="btn btn-1 btn-primary mb-3 mb-sm-0">
+                </button>
+                <ng-template #classic1 let-c="close" let-d="dismiss">
+                  <div class="modal-content">
+                    <div class="modal-body p-0">
+                      <div class="card bg-secondary shadow border-0">
+                        <div class="card-header bg-white pb-2">
+                          <h3 class="h4 text-irembo font-weight-bold mb-4">Request Demo
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="d('Cross click')">
+                              <span aria-hidden="true">×</span>
+                            </button>
+                          </h3>
+                          <div class="mb-3">
+                            <small class="h1 heading-five">Please provide the following information to continue </small>
+                          </div>
+                        </div>
+                        <div class="card-body px-lg-5 py-lg-5">
+                          <form role="form">
+                            <div class="form-group" [ngClass]="{'focused':focus===true}">
+                              <div class="input-group input-group-alternative mb-3">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
+                                </div>
+                                <input class="form-control" placeholder="Client Name" type="text" (focus)="focus=true" (blur)="focus=false">
+                              </div>
+                            </div>
+                            <div class="form-group" [ngClass]="{'focused':focus1===true}">
+                              <div class="input-group input-group-alternative mb-3">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                                </div>
+                                <input class="form-control" placeholder="Email Address" type="email" (focus)="focus1=true" (blur)="focus1=false">
+                              </div>
+                            </div>
+                            <div class="form-group" [ngClass]="{'focused':focus2===true}">
+                              <div class="input-group input-group-alternative">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text"><i class="fa fa-phone-square"></i></span>
+                                </div>
+                                <input class="form-control" placeholder="Phone Number" type="text" (focus)="focus2=true" (blur)="focus2=false">
+                              </div>
+                            </div>
+                            <div class="text-center">
+                              <button type="button" class="btn btn-primary mt-4" (click)="open(classic,'' , '')">Request Demo</button>
+                              <ng-template #classic let-c="close" let-d="dismiss">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h6 class="modal-title" id="modal-title-default">Details Sent Succesfully</h6>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="d('Cross click')">
+                                      <span aria-hidden="true">×</span>
+                                    </button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <p>your information has been sucessfully sent to IremboPay, we will contact you</p>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-1 btn-success" data-dismiss="modal" (click)="c('Close click')">Close</button>
+                                  </div>
+                                </div>
+                              </ng-template>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </ng-template>
+                <button (click)="open(classic2, 'modal_mini', 'sm')" class="btn btn-1 btn-primary mb-3 mb-sm-0">
                   <span class="btn-inner--text">Get Started</span>
-                </a>
+                </button>
+                <ng-template #classic2 let-c="close" let-d="dismiss">
+                  <div class="modal-content">
+                    <div class="modal-body p-0">
+                      <div class="card bg-secondary shadow border-0">
+                        <div class="card-header bg-white pb-2">
+                          <h3 class="h4 text-irembo font-weight-bold mb-4">Get Started
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="d('Cross click')">
+                              <span aria-hidden="true">×</span>
+                            </button>
+                          </h3>
+                          <div class="mb-3">
+                            <small class="h1 heading-five">Please provide the following information to continue </small>
+                          </div>
+                        </div>
+                        <div class="card-body px-lg-5 py-lg-5">
+                          <form role="form">
+                            <div class="form-group mb-3" [ngClass]="{'focused':focus===true}">
+                              <div class="input-group input-group-alternative">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text"><i class="fa fa-building"></i></span>
+                                </div>
+                                <input class="form-control" placeholder="Business Name" type="text" (focus)="focus=true" (blur)="focus=false">
+                              </div>
+                            </div>
+                            <div class="form-group mb-3" [ngClass]="{'focused':focus===true}">
+                              <div class="input-group input-group-alternative">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                                </div>
+                                <input class="form-control" placeholder="Email" type="email" (focus)="focus=true" (blur)="focus=false">
+                              </div>
+                            </div>
+                            <div class="form-group" [ngClass]="{'focused':focus1===true}">
+                              <div class="input-group input-group-alternative">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text"><i class="fa fa-phone-square"></i></span>
+                                </div>
+                                <input class="form-control" placeholder="Phone Number" type="text" (focus)="focus1=true" (blur)="focus1=false">
+                              </div>
+                            </div>
+                            <div class="form-group mb-3" [ngClass]="{'focused':focus===true}">
+                              <div class="input-group input-group-alternative">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text"><i class="fa fa-fax"></i></span>
+                                </div>
+                                <input class="form-control" placeholder="TIN Number" type="text" (focus)="focus=true" (blur)="focus=false">
+                              </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="text-center">
+                              <button type="button" class="btn btn-1 btn-primary" (click)="open(classic,'' , '')">Submit</button>
+                              <ng-template #classic let-c="close" let-d="dismiss">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h6 class="modal-title" id="modal-title-default">Details Sent Succesfully</h6>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="d('Cross click')">
+                                        <span aria-hidden="true">×</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <p>your information has been sucessfully sent to IremboPay, we will contact you</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-1 btn-success" data-dismiss="modal" (click)="c('Close click')">Close</button>
+                                    </div>
+                                  </div>
+                                </ng-template>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </ng-template>
               </div>
             </div>
           </div>
